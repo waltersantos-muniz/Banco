@@ -15,6 +15,21 @@ public class Principal {
        f.setBanco(b);
        b.setFuncionario(f);
        
+       f.setCodFuncionario(12);
+       f.setCpf("548.787.879-70");
+       f.setIdade(50);
+       f.setNome("Adalberto");
+       f.setSetor("Administrativo");
+       
+       c.setCodCliente(50);
+       c.setCpf("500.500.500-70");
+       c.setCredito(50.00);
+       c.setIdade(80);
+       c.setNome("José");
+       
+       b.setCodBanco(2000);
+       b.setNome("Almit");
+       
        System.out.println("Cliente: "+b.getCliente());
        System.out.println("Código do Banco: "+b.getCodBanco());
        System.out.println("Funcionário: "+b.getFuncionario());
